@@ -1,0 +1,5 @@
+this is a ML application for gathering turkish swearings for our nlp project. we aim to gather maximum numbers of swearings for teach our artificial intelligence which will be desired to work as an autonomous "Phrase Judge". Server returns realtime inputs if your data is bad or good on link /donbebegim/bool/yourdata( put underscore("_") instead of %20 or space(" ") ). this is an experimental system, there should be bugs, embrace yourselves 
+
+this project is an nosql project which is running on python flask and mongo db stack. also i didn't really cared for security. if you  find bugs please contact me, this is a research project anyways. we aim to create turkish swearing lexicon for turkish people and researchers. you can see the list of inputs on http://yourserver/partile/listele
+
+live example is running on http://sovbana.co

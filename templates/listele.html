@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<title> listele </title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+</head>
+<body>
+
+<div class=page>
+<h1> listele! </h1>
+
+{%for mess in data%}
+	<li>{{mess}}</li>
+{% endfor %}
+<br>
+len: {{data|length}}
+<br>
+<br>
+<footer>
+	bu sitede sövenler tamamen anonim değildir, ama yediğiniz küfürlere sinirlenmeyin. sinirlenirseniz de bize ne aq, gidin başka yerde sinirlenin.
+	<br>
+	<br>
+	sovbana.co (c) - 2016 maşin lörnin(g|k) hüloğ!
+	<br>
+	ps: <a href="https://eksisozluk.com/am-got-sik-sokmak-yalamak-koymak-sikmek-kari-ibne--950293?p=3">am göt sik sokmak yalamak koymak sikmek karı ibne</a>
+
+	<br>
+	ps2: en begenilenler <a href="https://www.youtube.com/watch?v=KCpATrv-xus">koma hırrım buke - kin</a>
+</footer>
+</body>
+</html>

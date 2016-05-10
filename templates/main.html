@@ -1,0 +1,45 @@
+<!doctype html>
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<title>sovbana.co - meraba sayın amuğagoduğm </title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+<h1>söv bana!</h1>
+<br>
+
+<h3>
+	merhaba bize sövmeni istiyoruz. bunu bilim için yap, tek ihtiyacımız olan küfürlerin. hayal gücünü kullan, yoksa o da zekan gibi yok mu?
+</h3>
+<br>
+
+<div onkeypress="return submit(event)">
+<form action="/" method="post">
+    <textarea type=text autofocus name=search class="textarea" value="{{ request.form.search}}" rows=10 cols=65></textarea>
+    <br>
+
+    <input type="submit" class="btn" value="senin aq" ></input>
+
+</form>
+</div>
+
+<script type="text/javascript">
+	
+	function submit(e){
+		if(e && e.keyCode == 13){
+			document.forms[0].submit();
+		}
+	}
+	
+</script>
+
+<br>
+<footer>
+	bu sitede sövenler tamamen anonim değildir, ama yediğiniz küfürlere sinirlenmeyin. sinirlenirseniz de bize ne aq, gidin başka yerde sinirlenin.
+	<br>
+	<br>
+	sovbana.co (c) - 2016 maşin lörnin(g|k) hüloğ!
+	<br>
+	ps: <a href="https://eksisozluk.com/am-got-sik-sokmak-yalamak-koymak-sikmek-kari-ibne--950293?p=3">am göt sik sokmak yalamak koymak sikmek karı ibne</a>
+
+	<br>
+	ps2: en begenilenler <a href="https://www.youtube.com/watch?v=KCpATrv-xus">koma hırrım buke - kin</a>
+</footer>
